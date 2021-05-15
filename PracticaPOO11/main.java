@@ -49,6 +49,8 @@ public class main
         menuAdmin = new String[12];
         menuTecnico = new String[3];
         menuEnfermero = new String[3];
+        
+        /** Inicializar arrays */
     }
     
     public static void main(String[] args){
@@ -109,6 +111,10 @@ public class main
         }while (opcion < 0 || opcion > 2);
         return opcion;
     } 
+    
+    /** Debería haber un metodo que inicialize la array de 
+    menuInicio y menuAdmin, que se ejecute solo una vez, es decir
+    en el construcotor de la clase main*/
     
     private void mostrarMenu1(){
         menuInicio[0] = "[0]  Administrador";
